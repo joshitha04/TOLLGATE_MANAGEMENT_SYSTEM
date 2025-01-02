@@ -1,0 +1,104 @@
+/* Container for the login form */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a6c8ff 0%, #e0f3ff 100%); /* Very light blue gradient background */
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  /* Form title */
+  .login-container h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adding shadow to text */
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  .login-input {
+    margin: 10px 0;
+    padding: 12px 15px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px; /* Responsive width */
+    border-radius: 25px; /* Rounded corners */
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Input focus effect */
+  .login-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Green shadow on focus */
+  }
+  
+  /* Button container */
+  .button-container {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  /* Submit button */
+  .login-button {
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2e79c9; /* Blue color from home.css */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    margin-top: 15px;
+  }
+  
+  /* Hover effect for button */
+  .login-button:hover {
+    background-color: #18869c; /* Darker blue on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Register link container */
+  .register-link-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* "Don't have an account?" text styling */
+  .account-question {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  
+  /* "Register here" link styling */
+  .register-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2773dd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for the register link */
+  .register-link:hover {
+    color: #45a049;
+  }
+  

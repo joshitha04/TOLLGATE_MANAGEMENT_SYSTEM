@@ -1,0 +1,335 @@
+/* AdminDashboard.css */
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0f3ff; /* Light blue background */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  border-color: #4e9b8d;
+}
+
+button {
+  padding: 20px 40px; /* Increase the size of the button */
+  border: none;
+  font-size: 18px; /* Increase the font size */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0; /* Ensure space around buttons */
+  width: auto;
+}
+
+.submit-btn {
+  background-color: #4e9b8d;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #3e7a68;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+.action-btn {
+  background-color: #4e9b8d;
+  color: white;
+}
+
+.action-btn:hover {
+  background-color: #3e7a68;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Center the buttons */
+button, .action-btn, .submit-btn, .cancel-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* AdminDashboard.css */
+
+/* Set the entire page background to light blue */
+body {
+  background-color: #e0f3ff; /* Light blue background for the whole page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0f3ff; /* Light blue background for the dashboard */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  border-color: #4e9b8d;
+}
+
+button {
+  padding: 20px 40px; /* Increase the size of the button */
+  border: none;
+  font-size: 18px; /* Increase the font size */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0; /* Ensure space around buttons */
+  width: auto;
+}
+
+.submit-btn {
+  background-color: #4e9b8d;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #3e7a68;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+.action-btn {
+  background-color: #4e9b8d;
+  color: white;
+}
+
+.action-btn:hover {
+  background-color: #3e7a68;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Center the buttons */
+button, .action-btn, .submit-btn, .cancel-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}/* AdminDashboard.css */
+
+/* Set the entire page background to light blue */
+body {
+  background-color: #e0f3ff; /* Light blue background for the whole page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 900px; /* Increased the width of the dashboard for better space */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0f3ff; /* Light blue background for the dashboard */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+.form-section {
+  margin-bottom: 40px; /* Increased bottom margin for better spacing between forms */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Increased the gap between input fields */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 800px; /* Added a max-width for better form layout */
+  margin: 0 auto; /* Centering the form */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Added gap between label and input for better spacing */
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  padding: 12px; /* Increased padding for input fields */
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 100%; /* Ensures the input fields fill the available space */
+}
+
+.input-field:focus {
+  border-color: #4e9b8d;
+}
+
+button {
+  padding: 15px 30px; /* Adjusted the padding for a more balanced button size */
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0; /* Ensured space around buttons */
+  width: auto;
+}
+
+.submit-btn {
+  background-color: #4e9b8d;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #3e7a68;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+.action-btn {
+  background-color: #4e9b8d;
+  color: white;
+}
+
+.action-btn:hover {
+  background-color: #3e7a68;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Center the buttons */
+button, .action-btn, .submit-btn, .cancel-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Optional: Style for error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Optional: Style for form headers */
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+

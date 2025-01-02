@@ -1,0 +1,191 @@
+/* Set the entire page background to light blue */
+body {
+  background-color: #e0f3ff; /* Light blue background for the whole page */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the entire dashboard */
+.dashboard-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the dashboard */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button group styles */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 14px 24px;
+  background-color: #319abc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #25adcf;
+  transform: translateY(-2px); /* Adds subtle hover effect */
+}
+
+/* Form container styles */
+.form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #27b0e1;
+  outline: none;
+}
+
+/* Button styles for submit actions */
+button:focus {
+  outline: none;
+}
+
+button.submit-button {
+  background-color: #28a745; /* Green background for submit button */
+}
+
+button.submit-button:hover {
+  background-color: #218838;
+}
+
+/* Cancel button styles */
+button.cancel-button {
+  background-color: #dc3545; /* Red background for cancel button */
+}
+
+button.cancel-button:hover {
+  background-color: #c82333;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #66cbea;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #339aea;
+  color: white;
+}
+
+td {
+  background-color: #95d2f8;
+}
+
+/* Fare result section */
+.fare-result,
+.schedule-result {
+  margin-top: 20px;
+}
+
+.fare-result h3,
+.schedule-result h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.fare-result ul,
+.schedule-result ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fare-result li,
+.schedule-result li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* General section spacing */
+section {
+  margin-bottom: 30px;
+}
+
+/* General styles for all sections */
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 15px;
+  }
+
+  button {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    font-size: 14px;
+  }
+
+  table th, table td {
+    padding: 8px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

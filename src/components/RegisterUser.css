@@ -1,0 +1,75 @@
+/* Container for the registration form */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    background: linear-gradient(135deg, #5ad9e5 0%, #b5c9ec 100%); /* Gradient background */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title of the registration form */
+  .register-container h1 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Input fields styling */
+  .register-input {
+    margin: 10px 0;
+    padding: 12px 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Input focus effect */
+  .register-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Green shadow on focus */
+  }
+  
+  /* Button styling */
+  .register-button {
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2977ca; /* Blue color used in home.css */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    width: 100%; /* Make the button full width */
+  }
+  
+  /* Hover effect for button */
+  .register-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  

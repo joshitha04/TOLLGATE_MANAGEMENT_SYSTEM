@@ -1,0 +1,77 @@
+Home.css
+.home-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative; /* Ensure the content can be positioned over the image */
+
+}
+.navbar {
+  background-color: #2977ca; /* Blue color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-title {
+  color: rgb(21, 9, 9);
+  font-size:25px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #061315; /* Background color for padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.navbar-links a:hover {
+  background-color: #3c96f6;
+  border-radius: 15px;
+}
+
+.home-content {
+  position: relative;
+  text-align: center;
+  z-index: 10; /* Ensure the content is on top of the image */
+  padding-top: 150px; /* Give enough space from the top */
+  color: white; /* Text color over image */
+}
+
+.home-image {
+  width: 100%;
+  height: 100vh; /* Make image take full height of the screen */
+  object-fit: cover; /* Ensure image covers the space without distortion */
+  position: absolute; /* Position the image behind the content */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Place the image behind the content */
+}
+
+.home-content h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow to text for better visibility */
+}
+
+
+.navbar, .home-content {
+  position: relative;
+  z-index: 10; /* Ensure they are above the image */
+} 
+
+

@@ -1,0 +1,86 @@
+/* Container for the login form */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f2c94c 0%, #e67e22 100%); /* Gradient background */
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  /* Form title */
+  .login-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adding shadow to text */
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  input {
+    margin: 12px 0;
+    padding: 12px 15px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px; /* Responsive width */
+    border-radius: 25px; /* Rounded corners */
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Input focus effect */
+  input:focus {
+    outline: none;
+    border-color: #e67e22;
+    box-shadow: 0 0 8px rgba(230, 126, 34, 0.5); /* Orange shadow on focus */
+  }
+  
+  /* Submit button */
+  button {
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    margin-top: 15px;
+  }
+  
+  /* Hover effect for button */
+  button:hover {
+    background-color: #d35400;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  
+  /* Error message */
+  p {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Link to Register page */
+  a {
+    color: #e67e22;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for the link */
+  a:hover {
+    color: #d35400;
+  }
+  
